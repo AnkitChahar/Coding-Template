@@ -4,6 +4,7 @@ typedef vector<int> vi;
 typedef vector<vector<int>> vvi;
 typedef pair<int,int> pii;
 typedef vector<pair<int,int>> vpii;
+typedef vector<vector<pair<int,int>>> vvpii;
 #define REP(i,a,b) for(int i=a;i<b;i++)
 #define REPR(i,a,b) for(int i=b;i>=a;i--)
 #define show(a) for(int i=0;i<a.size();i++){cout<<a[i]<<" ";}
