@@ -1,16 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
-typedef vector<int> vi;
-typedef vector<vector<int>> vvi;
-typedef pair<int,int> pii;
-typedef vector<pair<int,int>> vpii;
-typedef vector<vector<pair<int,int>>> vvpii;
+typedef long long int ll;
+typedef vector<ll> vi;
+typedef vector<vector<ll>> vvi;
+typedef pair<ll,ll> pii;
+typedef vector<pair<ll,ll>> vpii;
+typedef vector<vector<pair<ll,ll>>> vvpii;
 typedef vector<bool> vb;
 typedef vector<vector<bool>> vbb;
-typedef long long int ll;
-#define REP(i,a,b) for(int i=a;i<b;i++)
-#define REPR(i,a,b) for(int i=b;i>=a;i--)
-#define show(a) for(int i=0;i<a.size();i++){cout<<a[i]<<" ";}
+#define REP(i,a,b) for(ll i=a;i<b;i++)
+#define REPR(i,a,b) for(ll i=b;i>=a;i--)
+#define show(a) REP(i,0,a.size()){cout<<a[i]<<" ";}
 #define show2(a) REP(i,0,a.size()){REP(j,0,a[i].size()){cout<<a[i][j]<<" ";}cout<<endl;}
 #define pb push_back
 #define mp make_pair
